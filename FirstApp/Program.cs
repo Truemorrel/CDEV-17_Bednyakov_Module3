@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace FirstApp
+class MainClass
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
-    }
+	public static void Main(string[] args)
+	{
+
+		string myName;
+		myName = "Mike";
+
+		Console.WriteLine(myName);
+
+		Console.ReadKey();
+	}
 }
