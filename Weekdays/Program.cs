@@ -9,16 +9,17 @@ class MainClass
 		MyFavoriteDay = DaysOfWeek.Friday;
 
 		Console.WriteLine(MyFavoriteDay);
+		Console.ReadKey();
 	}
 }
 
 enum DaysOfWeek : byte
 {
-	Monday = 1,
-	Tuesday,
-	Wednesday,
-	Thursday,
-	Friday,
-	Saturday,
-	Sunday
+    Monday = 1,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
 }
