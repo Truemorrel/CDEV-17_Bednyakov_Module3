@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_world", "Hello_world\Hello_world.csproj", "{503EC5FD-CA68-4387-9B60-F1EF5E15DD1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anketa", "Anketa\Anketa.csproj", "{C1E9EDBD-650B-442E-898C-034A3484A7F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{503EC5FD-CA68-4387-9B60-F1EF5E15DD1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{503EC5FD-CA68-4387-9B60-F1EF5E15DD1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{503EC5FD-CA68-4387-9B60-F1EF5E15DD1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1E9EDBD-650B-442E-898C-034A3484A7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1E9EDBD-650B-442E-898C-034A3484A7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1E9EDBD-650B-442E-898C-034A3484A7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1E9EDBD-650B-442E-898C-034A3484A7F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
