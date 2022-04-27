@@ -1,11 +1,14 @@
 ﻿using System;
 
-class MainClass
+namespace Remainder
 {
-    public static void Main(string[] args)
+    class MainClass
     {
-        double result = 10 % 3;
-        Console.WriteLine("10 % 3 = {0}", result);
-        Console.ReadKey();
+        public static void Main(string[] args)
+        {
+            double result = 10 % 3;
+            Console.WriteLine("10 % 3 = {0}", result);
+            Console.ReadKey();
+        }
     }
 }
