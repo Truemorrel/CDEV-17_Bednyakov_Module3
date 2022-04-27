@@ -5,13 +5,15 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstApp", "FirstApp\FirstApp.csproj", "{133CEF09-8E97-4778-BDEA-A12C396B1052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello_world", "Hello_world\Hello_world.csproj", "{503EC5FD-CA68-4387-9B60-F1EF5E15DD1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello_world", "Hello_world\Hello_world.csproj", "{503EC5FD-CA68-4387-9B60-F1EF5E15DD1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anketa", "Anketa\Anketa.csproj", "{C1E9EDBD-650B-442E-898C-034A3484A7F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anketa", "Anketa\Anketa.csproj", "{C1E9EDBD-650B-442E-898C-034A3484A7F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekdays", "Weekdays\Weekdays.csproj", "{FB217FB6-F0E5-48B2-B1C7-1471418ACFDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weekdays", "Weekdays\Weekdays.csproj", "{FB217FB6-F0E5-48B2-B1C7-1471418ACFDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Semaphore", "Semaphore\Semaphore.csproj", "{04CE0911-4BD7-49D9-A7E6-ECACEC9E3563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Semaphore", "Semaphore\Semaphore.csproj", "{04CE0911-4BD7-49D9-A7E6-ECACEC9E3563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arithmetic", "Arithmetic\Arithmetic.csproj", "{2F70F53C-5C59-42A4-8BE7-8B5B8ABA3458}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{04CE0911-4BD7-49D9-A7E6-ECACEC9E3563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04CE0911-4BD7-49D9-A7E6-ECACEC9E3563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04CE0911-4BD7-49D9-A7E6-ECACEC9E3563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F70F53C-5C59-42A4-8BE7-8B5B8ABA3458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F70F53C-5C59-42A4-8BE7-8B5B8ABA3458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F70F53C-5C59-42A4-8BE7-8B5B8ABA3458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F70F53C-5C59-42A4-8BE7-8B5B8ABA3458}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
