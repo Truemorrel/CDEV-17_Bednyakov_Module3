@@ -31,6 +31,13 @@ namespace Type_convert
 			byte b_age = (byte)int.Parse(Console.ReadLine());
 			Console.WriteLine("Your name is {0} and age is {1} ", name, b_age);
 			Console.ReadKey();
+
+			Console.Write("Once again enter your name: ");
+            name = Console.ReadLine();
+			Console.Write("Enter your age under check overflow control: ");
+			age = checked((byte)int.Parse(Console.ReadLine()));
+			Console.WriteLine("Your name is {0} and age is {1} ", name, age);
+			Console.ReadKey();
 		}
 	}
 }
