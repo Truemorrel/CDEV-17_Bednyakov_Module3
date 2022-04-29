@@ -24,8 +24,7 @@ namespace Type_convert
 			bool iscorrect = int.TryParse(Console.ReadLine(), out age);
 			Console.WriteLine("Your age is {0} ", age);
 			Console.ReadKey();
-			age = 0;
-			Console.Write("Enter your name: ");
+            Console.Write("Enter your name: ");
 			string name = Console.ReadLine();
 			Console.Write("Enter your age second time more again: ");
 			byte b_age = (byte)int.Parse(Console.ReadLine());
