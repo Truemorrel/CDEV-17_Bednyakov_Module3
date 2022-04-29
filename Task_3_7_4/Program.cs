@@ -9,11 +9,10 @@ namespace Task_3_7_4
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
             Console.Write("Enter your age: ");
-            byte age = checked((byte)int.Parse(Console.ReadLine()));
+            var age = checked((byte)int.Parse(Console.ReadLine()));
             Console.WriteLine($"Yuor name is {name} and age is {age}");
             Console.Write("What is your favorite day of week? ");
-            Weekdays day;
-            bool isCorrect = Weekdays.TryParse(Console.ReadLine(), out day);
+            var day = (Weekdays) int.Parse(Console.ReadLine());
             Console.WriteLine($"Your favorite day is {day}");
         }
         enum Weekdays : byte
